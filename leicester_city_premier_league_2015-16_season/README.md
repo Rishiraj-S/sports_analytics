@@ -32,16 +32,6 @@ This project is a deep dive into **Leicester City’s historic 2015–16 Premier
 Read the full story here:  
 👉 **[Medium: Leicester’s 5000/1 Miracle – A Data-Driven Tribute to Jamie Vardy](https://medium.com/@rishiraj1998.rs/the-5000-to-1-miracle-how-leicester-city-won-the-premier-league-5e9921c39f5f)**
 
----
-
-## 💬 How to Contribute
-
-If you'd like to extend this with:
-- Pass maps for other players  
-- Comparison with other underdog stories  
-- Interactive Streamlit dashboards
-
-Feel free to fork, clone, or open a pull request.
 
 ---
 
