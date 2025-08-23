@@ -1,6 +1,6 @@
 # Sports Analytics Portfolio
 
-A collection of soccer/football analytics projects exploring players, teams, and title-winning seasons. Each project includes reproducible notebooks, clear methodology, and exportable visuals for articles and presentations.
+A collection of sports analytics projects exploring players, teams, and title-winning seasons. Each project includes reproducible notebooks, clear methodology, and exportable visuals for articles and presentations.
 
 > If you use or adapt anything here, a ⭐ on the repo is appreciated!
 
