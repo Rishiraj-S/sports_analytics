@@ -1,0 +1,78 @@
+﻿No.,eventTypeName,eventTypeId,Description,macro_category,categorias
+1,Pass,1.0,"Any pass attempted from one player to another – free kicks, corners, throw ins, goal kicks and goal assists",possession,Posesión / circulación
+2,Offside Pass,2.0,Attempted pass made to a player who is in an offside position,offside,Fueras de juego
+3,Take On,3.0,Attempted dribble past an opponent (excluding when qualifier 211 is present as this is ‘overrun’ and is not always a duel event),dribble_duel,Regates y duelos individuales
+4,Foul,4.0,This event is shown when a foul is committed resulting in a free kick,foul_card,Faltas y disciplina
+5,Out,5.0,Shown each time the ball goes out of play for a throw-in or goal kick,stoppage_restart,Interrupciones y reinicios de juego
+6,Corner Awarded,6.0,Ball goes out of play for a corner kick,stoppage_restart,Interrupciones y reinicios de juego
+7,Tackle,7.0,"Tackle = dispossesses an opponent of the ball - Outcome 1 = win & retain possession or out of play, 0 = win tackle but not possession",defending,Acciones defensivas (sin portero)
+8,Interception,8.0,When a player intercepts any pass event between opposition players and prevents the ball reaching its target. Cannot be a clearance.,defending,Acciones defensivas (sin portero)
+9,Turnover,9.0,Unforced error / loss of possession - i.e. bad control of ball – NO LONGER USED (Replaced with Unsuccessful Touch + Overrun),defending,Acciones defensivas (sin portero)
+10,Save,10.0,Goalkeeper event; saving a shot on goal. Can also be an outfield player event with qualifier 94 for blocked shot,goalkeeper,Acciones específicas de portero
+11,Claim,11.0,Goalkeeper event; catching a crossed ball,goalkeeper,Acciones específicas de portero
+12,Clearance,12.0,Player under pressure hits the ball clear of the defensive zone or/and out of play,defending,Acciones defensivas (sin portero)
+13,Miss,13.0,Any shot on goal which goes wide or over the goal,shot,Finalización (tiros y goles)
+14,Post,14.0,Whenever the ball hits the frame of the goal,shot,Finalización (tiros y goles)
+15,Saved Shot,15.0,Shot saved - this event is for the player who made the shot. Qualifier 82 can be added for blocked shot.,shot,Finalización (tiros y goles)
+16,Goal,16.0,All goals,shot,Finalización (tiros y goles)
+17,Card,17.0,"Bookings; will have red, yellow or 2nd yellow qualifier plus a reason",foul_card,Faltas y disciplina
+18,Player Off,18.0,Player is substituted off,match_admin,Gestión de partido / cambios / organización
+19,Player on,19.0,Player comes on as a substitute,match_admin,Gestión de partido / cambios / organización
+20,Player retired,20.0,Player is forced to leave the pitch due to injury and the team have no substitutions left,match_admin,Gestión de partido / cambios / organización
+21,Player returns,21.0,Player comes back on the pitch,match_admin,Gestión de partido / cambios / organización
+22,Player becomes goalkeeper,22.0,When an outfield player has to replace the goalkeeper,match_admin,Gestión de partido / cambios / organización
+23,Goalkeeper becomes player,23.0,If goalkeeper becomes an outfield player,match_admin,Gestión de partido / cambios / organización
+24,Condition change,24.0,Change in playing conditions,match_admin,Gestión de partido / cambios / organización
+25,Official change,25.0,Referee or linesman is replaced,match_admin,Gestión de partido / cambios / organización
+27,Start delay,27.0,Used when there is a stoppage in play such as a player injury,stoppage_restart,Interrupciones y reinicios de juego
+28,End delay,28.0,Used when the stoppage ends and play resumes,stoppage_restart,Interrupciones y reinicios de juego
+30,End,30.0,End of a match period,match_admin,Gestión de partido / cambios / organización
+32,Start,32.0,Start of a match period,match_admin,Gestión de partido / cambios / organización
+34,Team setp up,34.0,"Team line up; qualifiers 30, 44, 59, 130, 131 will show player line up and formation",match_admin,Gestión de partido / cambios / organización
+35,Player changed position,35.0,Player moved to a different position but the team formation remained the same,match_admin,Gestión de partido / cambios / organización
+36,Player changed Jersey number,36.0,"Player is forced to change jersey number, qualifier will show the new number",match_admin,Gestión de partido / cambios / organización
+37,Collection End,37.0,Event 30 signals end of half. This signals end of the match and thus data collection.,feed_meta,Metadatos técnicos del feed
+38,Temp_Goal,38.0,Goal has occurred but it is pending additional detail qualifiers from Opta. Will change to event 16.,shot,Finalización (tiros y goles)
+39,Temp_Attempt,39.0,Shot on goal has occurred but is pending additional detail qualifiers from Opta. Will change to event 15.,shot,Finalización (tiros y goles)
+40,Formation change,40.0,Team alters its formation,match_admin,Gestión de partido / cambios / organización
+41,Punch,41.0,Goalkeeper event; ball is punched clear,goalkeeper,Acciones específicas de portero
+42,Good skill,42.0,A player shows a good piece of skill on the ball Ð such as a step over or turn on the ball Ð NO LONGER USED,dribble_duel,Regates y duelos individuales
+43,Deleted event,43.0,Event has been deleted Ð the event will remain as it was originally with the same ID but will be resent with the type altered to 43.,feed_meta,Metadatos técnicos del feed
+44,Aerial,44.0,Aerial duel Ð 50/50 when the ball is in the air Ð outcome will represent whether the duel was won or lost,dribble_duel,Regates y duelos individuales
+45,Challenge,45.0,When a player fails to win the ball as an opponent successfully dribbles past them,dribble_duel,Regates y duelos individuales
+47,Rescinded card,47.0,This can occur post match if the referee rescinds a card he has awarded,foul_card,Faltas y disciplina
+49,Ball recovery,49.0,Team wins the possession of the ball and successfully keeps possession for at least two passes or an attacking play,defending,Acciones defensivas (sin portero)
+50,Dispossessed,50.0,Player is successfully tackled and loses possession of the ball,defending,Acciones defensivas (sin portero)
+51,Error,51.0,Mistake by player losing the ball. Leads to a shot or goals as described with qualifier 169 or 170,defending,Acciones defensivas (sin portero)
+52,Keeper pick-up,52.0,Goalkeeper event; picks up the ball,goalkeeper,Acciones específicas de portero
+53,Cross not claimed,53.0,Goalkeeper event; cross not successfully caught,goalkeeper,Acciones específicas de portero
+54,Smother,54.0,Goalkeeper event; comes out and covers the ball in the box winning possession,goalkeeper,Acciones específicas de portero
+55,Offside provoked,55.0,Awarded to last defender when an offside decision is given against an attacker,offside,Fueras de juego
+56,Shield ball opp,56.0,Defender uses his body to shield the ball from an opponent as it rolls out of play,dribble_duel,Regates y duelos individuales
+57,Foul throw-in,57.0,A throw-in not taken correctly resulting in the throw being awarded to the opposing team,foul_card,Faltas y disciplina
+58,Penalty faced ,58.0,Goalkeeper event; penalty by opposition team,goalkeeper,Acciones específicas de portero
+59,Keeper Sweeper,59.0,When keeper comes off his line and/or out of his box to clear the ball,goalkeeper,Acciones específicas de portero
+60,Chance missed,60.0,Used when a player does not actually make a shot on goal but was in a good position to score and on`ly just missed receiving a pass,shot,Finalización (tiros y goles)
+61,Ball touch,61.0,Used when a player makes a bad touch on the ball and loses possession. Outcome 1 Ð ball simply hit the player unintentionally. Outcome 0 Ð Player unsuccessfully controlled the ball.,possession,Posesión / circulación
+63,Temp_Save,63.0,An event indicating a save has occurred but without full details. Event 10 will follow shortly afterwards with full details.,goalkeeper,Acciones específicas de portero
+64,Resume,64.0,Match resumes on a new date after being abandoned mid game.,stoppage_restart,Interrupciones y reinicios de juego
+65,Contentious referee decision,65.0,Any major talking point or error made by the referee Ð decision will be assigned to the relevant team,foul_card,Faltas y disciplina
+66,Possession Data,66.0,Possession event will appear every 5 mins,feed_meta,Metadatos técnicos del feed
+67,50/50,67.0,New duel - 2 players running for a loose ball - GERMAN ONLY. Outcome 1 or 0.,dribble_duel,Regates y duelos individuales
+68,Referee Drop Ball,68.0,Delay - ref stops - this to event given to both teams on restart. No Outcome,stoppage_restart,Interrupciones y reinicios de juego
+69,Failed to Block,69.0,New duel (put through-Q266 is the winning duel event). Attempt to block a shot or pass - challenge lost,defending,Acciones defensivas (sin portero)
+70,Injury Time Announcement,70.0,Injury Time awarded by Referee,stoppage_restart,Interrupciones y reinicios de juego
+71,Coach Setup,71.0,"Coach Type; 1,2,18,30,32,54,57,58,59",match_admin,Gestión de partido / cambios / organización
+72,Caught Offside,72.0,New event to just show player who is offside instead of offside pass event,offside,Fueras de juego
+73,Other Ball Contact,73.0,"This is an automated extra event for DFL. It comes with a tackle or an interception and indicates if the player who made the tackle/interception retained the ball after this action or if the tackle/interception was a single ball touch (other ball contact with type “interception”, type “Defensive Clearance” or type “ TackleRetainedBall).",possession,Posesión / circulación
+74,Blocked Pass,74.0,Similar to interception but player already very close to ball,defending,Acciones defensivas (sin portero)
+75,Delayed Start,75.0,Match start delayed,stoppage_restart,Interrupciones y reinicios de juego
+76,Early end,76.0,The match has had an early end,stoppage_restart,Interrupciones y reinicios de juego
+77,Player Off Pitch,77.0,Event indicating that a player is now off the pitch,match_admin,Gestión de partido / cambios / organización
+26,,,,feed_meta,Metadatos técnicos del feed
+29,,,,feed_meta,Metadatos técnicos del feed
+31,,,,feed_meta,Metadatos técnicos del feed
+33,,,,feed_meta,Metadatos técnicos del feed
+46,,,,feed_meta,Metadatos técnicos del feed
+48,,,,feed_meta,Metadatos técnicos del feed
+62,,,,feed_meta,Metadatos técnicos del feed
