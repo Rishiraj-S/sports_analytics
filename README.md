@@ -30,13 +30,7 @@ sports_analytics/
 | 1 | **Aitana Bonmatí — Women's World Cup 2023 & EURO 2025** | Creative playmaking, xT/xG, shot creation | Complete |
 | 2 | **Bayer Leverkusen — Bundesliga 2023/24** | Team style, phases of play, late-game patterns | Complete |
 | 3 | **Leicester City — Premier League 2015/16** | Underdog tactics, chance quality, player profiles | Complete |
-| 4 | **Macclesfield FC vs Crystal Palace — FA Cup (2-1)** | Single-match event data analysis | Complete |
 
-### Cricket
-
-| # | Project | Focus | Status |
-|---|---------|-------|--------|
-| 1 | **Arshdeep Singh — T20 Bowling Analysis** | Phase-wise economy, dot-ball %, IPL vs T20I | Complete |
 
 ---
 
@@ -71,24 +65,6 @@ sports_analytics/
 - Player profile: Jamie Vardy — movement maps, shot map, finishing profile
 - Set-pieces and transition opportunities
 - Outputs: match- and season-level dashboards; player-focused visuals
-
-### Macclesfield vs Crystal Palace — FA Cup
-
-**Goal:** Single-match tactical breakdown using Opta event data.
-
-- Event volume and category breakdown by team
-- Possession and passing efficiency
-- Defensive and attacking action comparison
-
-### Arshdeep Singh — T20 Bowling Analysis
-
-**Goal:** Quantify Arshdeep's bowling across formats and phases.
-
-- Phase-wise economy (powerplay, middle, death)
-- Dot-ball percentage by phase
-- IPL vs T20 international split across 5,800+ match files
-
----
 
 ## Setup
 
