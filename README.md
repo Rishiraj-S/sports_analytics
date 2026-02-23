@@ -14,9 +14,6 @@ sports_analytics/
 │   ├── aitana_bonmati/               # FIFA Women's World Cup 2023 + EURO 2025
 │   ├── bayer_leverkusen_2023_24/     # Bundesliga 2023/24 unbeaten title season
 │   ├── leicester_city_2015_16/       # Premier League 2015/16 miracle season
-│   └── macclesfield_vs_crystal_palace/  # FA Cup single-match analysis
-├── cricket/
-│   └── arshdeep_singh_t20.ipynb     # T20 bowling analysis (IPL + internationals)
 ├── assets/                           # Portfolio visualisations
 ├── requirements.txt
 └── .gitignore
