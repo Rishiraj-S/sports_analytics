@@ -1,0 +1,22 @@
+# Core data
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+mplsoccer>=1.1.7
+plotly>=5.11.0
+
+# Football analytics
+statsbombpy>=1.0.0
+
+# Machine learning
+scikit-learn>=1.1.0
+
+# Graph / network
+networkx>=2.8.0
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
